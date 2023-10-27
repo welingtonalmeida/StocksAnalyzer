@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\StockAnalyzer.Business\StockAnalyzer.Business.csproj" />
+    <ProjectReference Include="..\StockAnalyzer.Domain\StockAnalyzer.Domain.csproj" />
+  </ItemGroup>
+
+
+</Project>
